@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1000">
+<title>Contact_Info_Rushil.bansoodeb</title>
+</head>
+<style>
+  .topnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(7, 84, 20);
+    text-align: center;
+    margin: 33px 20px;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    height: 10vh;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background: #ddd;
+    color: black;
+    height: 3vh;
+    width: 13vw;
+    border-radius: 20px;
+  }
+  
+  
+  .topnav a.active {
+    background-color: skyblue;
+    color: white;
+    height: 3vh;
+    width: 13vw;
+    border-radius: 20px;
+  }
+  
+  
+  
+
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  
+  .info{
+    width: 98.5%;
+    margin: 10px;
+    padding: 10px;
+    background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, white);
+
+    border-width: 3px;
+    border: #333;
+    text-align: center;
+    color: #FFF;
+    border-radius: 25px;
+}
+
+.box{
+   margin: 10px;
+   padding: 10px;
+   background-color:black;
+   clear: both;
+   text-align: left;
+   font-weight: bold;
+   font-family: sans-serif;
+   border-radius: 35px;
+}
+
+.contactus{
+    width: 98.5%;
+    margin: 10px;
+    padding: 10px;
+    background-color: none;
+    border-width: 0px;
+    border-style: solid;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+
+.rush{
+    width: 98.5%;
+    height: 160px;
+    margin:10px;
+    padding: 10px;
+    background-color: pink;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    border-radius: 25px;
+}
+.address{
+  width: 98.5%;
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+  font-weight: 600;
+color: #f2f2f2;
+}
+
+
+.telephone{
+    width: 98.5%;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+.emailaddress{
+    width: 98.5%;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 95%;
+  border-radius: 2px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: skyblue;
+}
+
+input[type=reset] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type=reset]:hover {
+  background-color: skyblue;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(255, 225, 0); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(225, 225, 0), rgb(192, 255, 208));
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+      .background{
+       border-radius: 5px;
+    background-color:none;
+    padding: 20px;
+    margin: 50px auto;   
+      }
+
+  
+  
+  
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    height: 100vh;
+  }
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+html { font-size: 18px; }
+
+body {
+  color: #000000;
+  font-size: 1.2em;
+  line-height: 1.2;
+  background:#FFF;
+  overflow-x:hidden;
+}
+  @media only screen and (max-width:1000px) {
+    /* For tablets: */
+   .menu .main .right {
+      width: 100%;
+      padding: 0;
+    }
+    .emailaddress{
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .topnav a{
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .topnav a:hover{
+    width: 14.8vw;
+   
+ }
+
+ .topnav a.active{
+    width: 14.8vw;
+  
+ }
+
+ .container{
+  padding: 20px;
+  margin: 20px;
+ }
+
+  }
+
+ 
+  @media only screen and (max-width:700px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+
+    .emailaddress{
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .topnav a{
+        font-size:13px;
+        padding: 3px;
+      
+      }
+
+ .topnav a:hover{
+    width: 13.5vw;
+    height: 2vh;
+ }
+ .topnav a.active{
+    width: 13.5vw;
+    height: 2vh;
+ }
+
+ .container{
+  padding: 30px;
+  margin: 20px;
+ }
+}
+
+.map{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+
+  
+</style>
+<body style="background-color:rgb(177, 229, 185); height: 100vh;">
+    
+
+    <div class="topnav">     
+  <a  href="home.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="donation.html">DONATION</a> 
+  <a href="shop.html">SHOP</a>
+  <a class="active" href="contact.html">CONTACT</a>
+</div>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>For More Information Contact Us.</h2>
+    <p>Leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="MEDIA/contact pic.png" style="border-radius: 25px; width: 97%;"/>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">E-Mail</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your E-Mail Here">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+  </div>
+</div>
+
+ 
+
+    <div class="box"><span class="contactus">Contact Us:</span></div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.588683693338!2d-79.60648978760452!3d43.727642132079524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3a53999a62db%3A0x109ccb9c021bab26!2s203%20Humber%20College%20Blvd%2C%20Etobicoke%2C%20ON%20M9W%206V3!5e0!3m2!1sen!2sca!4v1680966312108!5m2!1sen!2sca" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <div class="atew" ><p class="emailaddress">Address: 203 Humber College Blvd,ON Etobicoke,M9W 6V3</p>
+                <p class="emailaddress">Telephone: 437-421-4312</p>
+                <p class="emailaddress">Email: n01541953@humber.ca</p>
+                <p class="emailaddress">Website: http//www.wildlife.mu</p>
+                <img src="MEDIA/Untitled-b.png" style="width: 60%;">
+              </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Shop Page</title>
+    </head>
+    <style>
+
+ .grid {
+        width: 70vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px 400px 300px;
+        text-align: center;
+        
+    }
+
+    .grid div {
+        background: linear-gradient(45deg, rgb(239, 237, 114), #ffffff);
+        border: 4px solid rgb(254, 246, 246);
+        margin: 10px;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        overflow-y: hidden;
+    }
+
+     .topnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(7, 84, 20);
+    text-align: center;
+    margin: 33px 20px;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    height: 10vh;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background: #ddd;
+    color: black;
+    height: 3vh;
+    width: 13vw;
+    border-radius: 20px;
+  }
+
+  
+  .topnav a.active {
+    background-color: skyblue;
+    color: white;
+    height: 3vh;
+    width: 13vw;
+    border-radius: 20px;
+  }
+
+  .buy {
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align:center;
+  }
+  
+  .buy:hover {
+    background-color: skyblue;
+  }
+
+  @media only screen and (max-width:1000px) {
+    /* For tablets: */
+   .menu .main .right {
+      width: 100%;
+      padding: 0;
+    }
+
+    .topnav a{
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .topnav a:hover{
+    width: 14.8vw;
+ }
+
+ .topnav a.active{
+    width: 14.8vw;
+ }
+
+ .grid{
+            width: 90vw;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: 400px 400px 400px;
+  }
+
+ 
+
+}
+
+  
+@media only screen and (max-width:650px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+
+    .topnav a{
+        font-size:13px;
+        padding: 3px;
+      
+      }
+
+ .topnav a:hover{
+    width: 13.5vw;
+    height: 2vh;
+ }
+ .topnav a.active{
+    width: 13.5vw;
+    height: 2vh;
+ }
+
+ .header h1{
+    font-size: 10px;
+ }
+
+ .grid{
+            width: 95vw;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 400px 400px 400px;
+        }
+ 
+ }
+
+
+    </style>
+    <body style="background-color: rgb(235, 171, 125);">
+       <div class="topnav">     
+        <a  href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a  href="donation.html">DONATION</a> 
+        <a class="active"  href="shop.html">SHOP</a>
+        <a href="contact.html">CONTACT</a>
+        </div>
+
+
+        <div class="grid" >
+            <div>
+                <img src="MEDIA/hoodiemockup.png" style="width: 90%;">
+                <h1>Unisex Hoodie</h1>
+                <p>$13.99</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+            <div>
+                <img src="MEDIA/hat.png" style="width: 90%;">
+                <h1>Beanie</h1>
+                <p>$9.99</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+            <div>
+                <img src="MEDIA/Ecobag.png" style="width: 90%;">
+                <h1>Eco-Bag</h1>
+                <p>$4.00</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+            <div>
+                <img src="MEDIA/mug.png" style="width: 90%;">
+                <h1>Mug</h1>
+                <p>$2.68</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+            <div>
+                <img src="MEDIA/pen.png" style="width: 90%;">
+                <h1>Bold Pen</h1>
+                <p>$1.49</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+            <div>
+                <img src="MEDIA/Notebook.png" style="width: 90%;">
+                <h1>NoteBook</h1>
+                <p>$7.99</p>
+                <a class="buy" href="cart.html">Add To Cart</a>
+            </div>
+
+
+        </div>
+    </div>
+ 
+    </body>
+</html>
