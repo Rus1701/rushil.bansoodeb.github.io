@@ -1,0 +1,374 @@
+<DOCTYPE html>
+    <html>
+    <head>
+    <title>Rushil Bansoodeb</title>
+    <style>
+     body {
+            margin: 0;
+            background-color: rgb(255, 225, 0); /* For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, rgb(225, 225, 0), rgb(47, 231, 93));
+        }
+        
+        .nav {
+            position: fixed;
+            top: 0;
+            height: 10vh;
+            width: 100vw;
+            background-color: rgb(255, 255, 255);
+            z-index: 999;
+        }
+        
+    
+        .nav ol{
+            margin: 0;
+            padding: 0;
+            float: left;
+            margin-right: 50px;
+        }
+        
+        .nav ol li {
+            display: inline-block;
+            margin: 33px 20px;
+            padding: 2px;
+        }
+        
+        .nav ol li a {
+            color: rgb(7, 84, 20);
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+
+        }
+
+        .nav ol li a:hover {
+            color: skyblue;
+            height: 3vh;
+            width: 10vw;
+            border-radius: 20px;
+        }
+
+    .nav ol li a.active {
+    color: #000;
+    height: 3vh;
+    width: 13vw;
+    border-radius: 20px;
+        }
+        .logo {
+            color: rgb(135, 223, 73);
+            float:right;
+            font-size: 35px;
+            margin-right: 25px;
+            font-family: fantasy;
+        }
+        
+        .header {
+            margin-top: 10vh;
+            height: 83vh;
+            background-image: url(MEDIA/pink\ pigoun.png);
+            background-size: 100%;
+        }
+        
+        .box {
+            width: 35%;
+            height: 45%;
+            border: none;
+            border: 8px solid rgb(0, 0, 0);
+            background: rgba(254, 254, 254, 0.68);
+            text-align: left;
+            padding: 20px;
+            position: relative;
+            left: 250px;
+            top: 100px;
+        }
+
+        .box h1{
+            font-size: 60px;
+        }
+
+        .box p{
+            font-size: 40px;
+        }
+
+       .box button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 20px;
+}
+
+.box button:hover{
+    background-color: #000;
+    color: aliceblue;
+}
+        
+        .flex{
+            display:flex;
+        }
+        
+        .flex div {
+            flex: 1;
+            border: 4px solid rgb(10, 128, 25);
+            margin: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            color:white;
+        }
+
+        .flex button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 20px;
+        }
+        
+        .flex div h1 {
+            background-color: rgb(10, 128, 25);
+            margin: 0;
+            padding: 8px;
+            color: white;
+        }
+        
+        .flex div p {
+            padding: 10px;
+        }
+        
+        .flex div button {
+            display: block;
+            margin: auto;
+        }
+        .flex div button:hover {
+            background-color: rgb(227, 201, 83);
+    color: aliceblue;
+        }
+        
+        .main {
+            display: flex;
+            color: white;
+        }
+
+    .main-left{
+        float: left;
+        display: flex;
+        margin: 50px;
+        padding: 20px;
+        border-color: #fff;
+    }
+
+   
+
+    .main-right{
+        float: right;
+        font-size: 28px;
+        display: flex;
+        margin: 80px;
+        padding: 10px;
+        border-color: #fff;
+        background-color: rgb(116, 37, 37);
+    }
+       
+        
+
+        .main2{
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .footer {
+                height: 40vh;
+                background-image:url(MEDIA/bbb.png);
+                background-size: 100%;
+                background-attachment: fixed;
+                display:flex;
+                align-items: center;
+            }
+            
+            .footer div {
+                margin: 10px;
+            }
+            
+            .footer h1 {
+                color: aliceblue;
+                background:rgb(210, 92, 33);
+                text-align: center;
+                font-size: 2em;
+                margin: 0;
+            }
+            
+            .footer p {
+                color: white;
+                background: black;
+                text-align: center;
+                margin: 0;
+                padding: 20px;
+                font-size: 1.2em;
+            }
+
+            .map{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #333;
+}
+
+  .btn {
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align:center;
+  }
+  
+  .btn:hover {
+    background-color: skyblue;
+  }
+    
+         .ma2{
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+         }
+
+  .ma2 img{
+    width: 15%;
+  }
+  .emailaddress{
+    width: 98.5%;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+
+
+
+    </style>
+    </head>
+    
+    <body>
+    
+        <div class="nav">
+                <h1 class="logo">Mauritius Wildlife Organization</h1>
+            <ol>
+                <li><a class="active" href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="donation.html">DONATION</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ol>
+        </div>
+    
+        <div class="header">
+            <div class="box">
+                <h1>Rescue The Nature</h1>
+                <p>Do It For The Innocent Soul</p>
+                <a class="btn" href="about.html">Learn More</a>
+            </div>
+        </div>
+    
+        <div class="flex">
+            <div class="box1">
+                <h1>SUPPORT US</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci molestiae quidem possimus voluptate iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cumque laborum exercitationem quos pariatur vitae ad dolor excepturi dolore fugiat, aperiam sit ducimus at, distinctio reprehenderit iure magni a officiis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi cum tenetur aperiam rerum perferendis voluptatibus, harum inventore incidunt porro quia architecto unde ipsum qui fugiat alias! Sint perspiciatis quaerat ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci laborum nam magnam? Molestias veritatis perferendis, adipisci perspiciatis excepturi asperiores odit? Quod omnis odio voluptatum laboriosam necessitatibus facilis ab molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum illo fuga itaque ullam accusamus laborum optio molestias et nam officia distinctio fugiat accusantium ipsum corrupti,</p>
+    
+                <button>OPEN</button>
+            </div>
+    
+            <div class="box2">
+                <h1>DEALS</h1>
+    
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci molestiae quidem possimus voluptate iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint optio accusamus sit nisi alias adipisci in iusto beatae inventore. Iusto velit a aspernatur aut libero quisquam excepturi incidunt quibusdam debitis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error modi illum nobis accusamus reiciendis sit quasi, non odit quo qui eum? Similique maxime perspiciatis ullam beatae? Sapiente itaque quam dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, blanditiis! Reprehenderit ipsum harum unde officiis repellendus totam tempore, minima cumque corporis, ad facilis sit velit ex provident. Perferendis, voluptatem fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquam at aut nesciunt, fuga accusamus dolores vero ad facere. Recusandae aliquam nemo dicta accusamus ducimus debitis, nihil dolores molestiae repudiandae.</p>
+    
+                <button>OPEN</button>
+            </div>
+    
+            <div class="box3">
+                    <h1>HOW TO HELP US</h1>
+    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci molestiae quidem possimus voluptate iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus dolores laudantium quo provident quisquam in magnam? Eius voluptas, quaerat eligendi maxime dicta animi odio ipsam porro, in deleniti nulla magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem quas, magni nostrum ratione aut perspiciatis aspernatur doloremque, consequuntur blanditiis ad quis repellat doloribus praesentium sequi. Accusamus vitae atque dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quos laborum, aspernatur sequi laboriosam ducimus eveniet voluptatibus molestiae accusamus facere officiis totam blanditiis ea corporis cum architecto commodi aliquam doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore possimus temporibus ex iusto, officiis quisquam a tempore minus, repudiandae dolores distinctio corporis cumque. </p>
+        
+                    <button>OPEN</button>
+            </div>
+    
+        </div>
+    
+        <div class="main">
+    
+            <div class="main-left">
+    
+               <img src="MEDIA/ttt.png" style="width:30vw;">
+            </div>
+    
+            <div class="main-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, libero doloribus. Modi nesciunt quis possimus vero. Sunt hic modi repellendus excepturi quam, cupiditate voluptatem saepe recusandae molestias rem deleniti incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis aperiam architecto incidunt tempore esse facere explicabo amet, accusamus fugit quo saepe labore ipsam consequuntur. Veniam expedita explicabo dolores dignissimos? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi rem voluptate a quidem labore suscipit rerum enim odio, eius quas, cum nesciunt voluptatibus dolore nam modi ex accusantium assumenda hic?</p>
+            </div>
+    
+        </div>
+    
+        <div class="main2">
+            <video width="98%" height="60%" autoplay>
+                <source src="MEDIA/Friends of Mauritius Wildlife.mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+    
+    
+        <div class="footer">
+
+            <div class="fbox1">
+                <h1>Heading 1</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt non nesciunt in distinctio illum, aut ea neque explicabo odio aliquid hic, perspiciatis laboriosam pariatur? Veniam delectus placeat minus animi culpa.</p>
+            </div>
+
+            <div class="fbox2">
+                <h1>Heading 2</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt non nesciunt in distinctio illum, aut ea neque explicabo odio aliquid hic, perspiciatis laboriosam pariatur? Veniam delectus placeat minus animi culpa.</p>
+
+            </div>
+
+            <div class="fbox3">
+                <h1>Heading 3</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt non nesciunt in distinctio illum, aut ea neque explicabo odio aliquid hic, perspiciatis laboriosam pariatur? Veniam delectus placeat minus animi culpa.</p>
+            </div>
+    
+        </div>
+
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.588683693338!2d-79.60648978760452!3d43.727642132079524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3a53999a62db%3A0x109ccb9c021bab26!2s203%20Humber%20College%20Blvd%2C%20Etobicoke%2C%20ON%20M9W%206V3!5e0!3m2!1sen!2sca!4v1680966312108!5m2!1sen!2sca" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       <div class="atew" ><p class="emailaddress">Address: 203 Humber College Blvd,ON Etobicoke,M9W 6V3</p>
+                        <p class="emailaddress">Telephone: 437-421-4312</p>
+                        <p class="emailaddress">Email: n01541953@humber.ca</p>
+                        <p class="emailaddress">Website: http//www.wildlife.mu</p>
+                        <img src="MEDIA/Untitled-b.png" style="width: 60%;">
+                      </div>
+        </div>
+
+        <div class="ma2">
+            <div class="lg">
+            <img src="MEDIA/Untitled-3.png">
+            </div>
+
+        </div>
+    
+    </body>
+    </html>
+    </DOCTYPE>
